@@ -1,0 +1,128 @@
+.content-wrapper.sys-main {
+    min-width: 1362px;
+    overflow: auto;
+}
+
+/* ################################################################################ */
+
+
+#layout-navbar {
+    margin: 0;
+    width: 100%!important;
+}
+.nav .sys-logo {
+    height: 70px;
+    width: auto;
+}
+
+.nav .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+
+/* ################################################################################ */
+
+
+.main-wording {
+    padding: 0.75rem 1.5rem 1.5rem;
+}
+
+
+/* ################################################################################ */
+
+#icons-container {
+    justify-content: space-between;
+}
+#icons-container .card.icon-card {
+    width: 150px;
+    margin: 0.5rem 0;
+}
+
+#icons-container .card-body {
+    padding: 3.5rem 1.5rem;
+}
+#icons-container .card-body {
+    border-radius: 0.5rem;
+    background-position: center;
+}
+#icons-container .card-body.post-1 {
+    background-image: url("../img/post/01.jpg");
+}
+#icons-container .card-body.post-2 {
+    background-image: url("../img/post/02.jpg");
+}
+#icons-container .card-body.post-3 {
+    background-image: url("../img/post/03.jpg");
+}
+#icons-container .card-body.post-4 {
+    background-image: url("../img/post/04.png");
+}
+#icons-container .card-body.post-5 {
+    background-image: url("../img/post/05.jpg");
+}
+#icons-container .card-body.post-6 {
+    background-image: url("../img/post/06.jpg");
+}
+#icons-container .card-body.post-7 {
+    background-image: url("../img/post/07.jpg");
+}
+#icons-container .card-body.post-8 {
+    background-image: url("../img/post/08.jpg");
+}
+#icons-container .card-body.post-9 {
+    background-image: url("../img/post/09.jpg");
+}
+#icons-container .card-body.post-10 {
+    background-image: url("../img/post/10.jpg");
+}
+
+
+/* ################################################################################ */
+
+.card-body.sys-login {
+    padding: 2.1rem 1.5rem;
+}
+
+.sns-loign-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+.sns-loign {
+    display: inline-block;
+    box-sizing: border-box;
+}
+.sns-loign a {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+a.sns-naver {
+background-color: #1ec800;
+}
+a.sns-kakao {
+    background-color: #f9e000;
+}
+a.sns-google {
+    background-color: transparent;
+    border: 1px solid #e4e6f0;
+}
+a.sns-facebook {
+    background-color: #1877f2;
+}
+.sns-loign a img {
+    width: 18px;
+    vertical-align: middle;
+    margin: auto !important;
+    position: relative;
+    display: block;
+}
+
+/* ################################################################################ */
